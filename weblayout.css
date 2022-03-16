@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 1000px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 150px;
+    width: 1200px;
+}
+
+.branding{
+    height: 150px;
+    width: 400px;
+    background-color: darkseagreen;
+    float: left;
+}
+
+.branding img{
+    height: 150px;
+    width: 400px;
+}
+.media{
+    height: 100px;
+    width: 800px;
+    background-color: chocolate;
+    float: left;
+    
+}
+
+.media img{
+    height: 80px;
+    width: 150px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+   }
+
+.menu{
+    height: 50px;
+    width: 800px;
+    background-color: seagreen;
+    float: left;
+    list-style-image: none;
+    }
+
+.menu ul li{
+        float: left;
+        list-style: none;
+        display: block;
+        background-color: wheat;
+        height: 40px;
+        width: 190px;
+        margin-left: 8px;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .menu ul li:hover{
+        background-color: red;
+
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        color: blue;
+    }
+
+.container{
+    height: 800px;
+    width: 1200px;
+}
+
+.gallary{
+    height: 400px;
+    width: 1200px;
+    background-color: salmon;
+
+    overflow: scroll;
+}
+
+.gallary img{
+    height: 400px;
+    width: 1200px;
+}
+
+.bikes{
+    height: 400px;
+    width: 1200px;
+    background-color: aliceblue;
+}
+
+.bikes img{
+    height: 400px;
+    width: 300px;
+}
+
+.bike1{
+    height: 400px;
+    width: 300px;
+    background-color: coral;
+    float: left;
+    text-align: center;
+}
+
+.bike2{
+    height: 400px;
+    width: 300px;
+    background-color: fuchsia;
+    float: left;
+    text-align: center;
+}
+
+.bike3{
+    height: 400px;
+    width: 300px;
+    background-color: slategrey;
+    float: left;
+    text-align: center;
+}
+
+.bike4{
+    height: 400px;
+    width: 300px;
+    background-color: goldenrod;
+    float: left;
+    text-align: center;
+}
+
+.footer{
+    height: 50px;
+    width: 1200px;
+    background-color: lightslategrey;
+    float: left;
+    text-align: left;
+    line-height: 50px;
+}
